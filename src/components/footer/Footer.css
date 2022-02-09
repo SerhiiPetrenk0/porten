@@ -1,0 +1,76 @@
+.footer {
+  height: 400px;
+  color: white;
+  background-image: url('../../img/Rectangle_15.png');
+  background-position: center;
+  background-size: cover;
+}
+.footer-position {
+  display: flex;
+  flex-direction: row;
+}
+.footer-row {
+  flex: 1;
+  margin: 60px 20px;
+}
+.footer-title {
+  margin-bottom: 40px;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-family: PostNoBillsJaffna;
+}
+.footer-category span {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  background-color: black;
+  color: white;
+  transition: 0.2s;
+  cursor: pointer;
+}
+.footer-category span:hover {
+  background-color: #0f0f0f;
+}
+.footer-email-container {
+  display: flex;
+  margin-top: 40px;
+}
+.footer-email-send {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 20px;
+  background-color: black;
+  cursor: pointer;
+  transition: 300ms;
+}
+.footer-email-send:hover {
+  background-color: #1f1f1f;
+}
+.footer-email::placeholder {
+  color: white;
+  padding-left: 10px;
+}
+
+.footer-email {
+  background-color: rgba(255, 255, 255, 0.4);
+  color: white;
+  height: 45px;
+  width: 250px;
+}
+.footer-email:focus {
+  outline: none;
+}
+
+.buttonLine {
+  height: 40px;
+  background-color: black;
+  color: white;
+}
+.buttonLine-style {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: gray;
+}

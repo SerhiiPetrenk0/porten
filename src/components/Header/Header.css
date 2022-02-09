@@ -1,0 +1,49 @@
+.Header {
+  background-color: #0f0f0f;
+  height: 80px;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  font-family: PostNoBillsJaffna;
+  text-transform: uppercase;
+  font-size: 40px;
+}
+.container {
+  margin: 0 auto;
+  height: 100%;
+}
+.container .inner {
+  height: 100%;
+}
+.inner .nav-icon {
+  font-size: 20px;
+}
+.top-line-loger a {
+  text-decoration: none;
+  color: gray;
+}
+.nav-item a {
+  text-decoration: none;
+  color: gray;
+  transition: 0.3s;
+  padding: 24px;
+}
+.nav-item a:hover {
+  color: white;
+  background-color: #1f1f1f;
+}
+@media (max-width: 575.98px) {
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .Header {
+    background-color: #0f0f0f;
+    height: 70px;
+  }
+  .nav-item a {
+    padding: 24px 10px;
+  }
+}

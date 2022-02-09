@@ -1,0 +1,22 @@
+.OurBrands-container {
+  color: white;
+  background-color: #0f0f0f;
+  display: flex;
+}
+
+.OurBrands-position {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.urBrands-List {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.urBrands-List img {
+  width: 23%;
+  margin: 0 10px;
+}

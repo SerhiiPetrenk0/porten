@@ -1,0 +1,61 @@
+.OldSeason-container {
+  display: flex;
+  height: 600px;
+}
+.OldSeason-img {
+  background-image: url('../../img/image_6.png');
+  background-position: center;
+  background-size: cover;
+  flex: 3;
+  width: 200px;
+}
+.OldSeason-content {
+  justify-content: center;
+  align-items: center;
+  color: white;
+  padding-top: 100px;
+  flex: 4;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  font-family: PostNoBillsJaffna;
+}
+.OldSeason-content p {
+  width: 500px;
+  text-align: center;
+}
+.OldSeason-content .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  width: 300px;
+  height: 50px;
+}
+
+@media (max-width: 575.98px) {
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .OldSeason-content {
+    background-image: url('../../img/image_6.png');
+    background-position: center;
+    background-size: cover;
+  }
+  .OldSeason-img {
+    display: none;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .OldSeason-content {
+    background-image: url('../../img/image_6.png');
+    background-position: center;
+    background-size: cover;
+  }
+  .OldSeason-img {
+    display: none;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+}
+@media (min-width: 1200px) {
+}

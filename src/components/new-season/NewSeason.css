@@ -1,0 +1,101 @@
+.NewSeason-main {
+  background-color: black;
+  color: white;
+
+  display: flex;
+}
+.NewSeason {
+  flex: 4;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+  padding-top: 100px;
+}
+.new-collection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 300px;
+  flex: 3;
+  background-image: url('../../img/image_2.png');
+  background-position: center;
+  background-size: cover;
+}
+.new-collection .btn {
+  width: 200px;
+}
+.ListContainer {
+  margin-top: 50px;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.NewSeason-title {
+  display: flex;
+  justify-content: center;
+}
+@media (max-width: 575.98px) {
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .ListContainer {
+    width: 100%;
+    height: max-content;
+  }
+  .NewSeason-main {
+    display: flex;
+    flex-direction: column;
+  }
+  .new-collection {
+    padding: 200px 100px;
+  }
+  .NewSeason-title {
+    display: flex;
+    justify-content: center;
+  }
+  .NewSeason .card-container {
+    margin: 10px 10px;
+    width: 180px;
+    height: 280px;
+  }
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .NewSeason-main {
+    display: flex;
+    flex-direction: column;
+  }
+  .new-collection {
+    padding: 200px;
+  }
+  .NewSeason-title {
+    display: flex;
+    justify-content: center;
+  }
+  .ListContainer {
+    width: 100%;
+  }
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .NewSeason-main {
+    height: 500px;
+  }
+  .NewSeason-main .card-container {
+    height: 350px;
+    margin: 10px 15px;
+    width: 200px;
+  }
+  .ListContainer {
+    margin-top: 0px;
+  }
+  .NewSeason {
+    padding-top: 10px;
+  }
+}
+@media (min-width: 1200px) {
+  .NewSeason-main {
+    height: 800px;
+  }
+}
